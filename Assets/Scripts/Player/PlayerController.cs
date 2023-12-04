@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     {
         InputHandler.OnInputMovement -= ChangePlayerDirection;
     }
+
     private void Update()
     {
         Vector3 movement = inputDirection * movementSpeed;
