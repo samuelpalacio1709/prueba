@@ -69,6 +69,49 @@ public class DataManager : Singleton<DataManager>
         {
             return this.user.username;
         }
-        return "Guest";
+        return null;
     }
 }
+
+
+[System.Serializable]
+public class User
+{
+    public User(string username, string password)
+    {
+        this.username = username;
+        this.password = password;
+    }
+
+    public string username;
+    public string password;
+    public PlayerInventory inventory;
+}
+
+
+[System.Serializable]
+public class PlayerWearable
+{
+    public PlayerWearable(string type, string path)
+    {
+        this.type = type;
+        this.path = path;
+    }
+
+    public string type;
+    public string name;
+    public string path;
+}
+
+[System.Serializable]
+public class PlayerInventory
+{
+    public PlayerWearable[] wearables;
+}
+
+[System.Serializable]
+public class Users
+{
+    public User[] users;
+}
+

@@ -19,12 +19,16 @@ public class InputHandler : MonoBehaviour
         input.Enable();
         input.Player.Movement.performed += HandleInputMovementPerformed;
         input.Player.Movement.canceled += HandleInputMovementCanceled;
+        input.Player.Interact.performed += HandleInputInteractionPerformed;
+
     }
     private void OnDisable()
     {
         input.Disable();
         input.Player.Movement.performed -= HandleInputMovementPerformed;
         input.Player.Movement.canceled -= HandleInputMovementCanceled;
+        input.Player.Interact.performed -= HandleInputInteractionPerformed;
+
     }
 
     private void HandleInputMovementPerformed(InputAction.CallbackContext context)
@@ -35,7 +39,12 @@ public class InputHandler : MonoBehaviour
     {
         OnInputMovement?.Invoke(Vector2.zero);
     }
+    private void HandleInputInteractionPerformed(InputAction.CallbackContext context)
+    {
+        Debug.Log("Interaction");
+        OnInputInteraction?.Invoke();
+    }
 
-    
+
 
 }
