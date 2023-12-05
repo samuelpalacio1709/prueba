@@ -20,7 +20,8 @@ public class ItemSO : ScriptableObject
         Cheast,
         Legs,
         Hands,
-        Feet
+        Feet,
+        Any
     }
     public void WearItem()
     {

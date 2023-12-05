@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using static UnityEditor.Progress;
 
 public class DropZone : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public bool hasElement => transform.childCount > 0;
+    public ItemSO.type type;
     public void OnPointerEnter(PointerEventData eventData)
     {
         Draggable dragabble = null;
         eventData.pointerDrag?.TryGetComponent(out dragabble);
         if (dragabble != null && transform.childCount<1)
         {
-            dragabble.dropZone = this;
+            if(dragabble.GetItemType()== this.type || this.type == ItemSO.type.Any)
+            {
+                dragabble.SetDropZone(this);
+            }
+            
+
         }
     }
 
@@ -24,7 +31,10 @@ public class DropZone : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
         if (dragabble != null)
         {
-            dragabble.dropZone = null;
+            if (dragabble.GetItemType() == this.type || this.type == ItemSO.type.Any)
+            {
+                dragabble.SetDropZone(null);
+            }
         }
     }
 }

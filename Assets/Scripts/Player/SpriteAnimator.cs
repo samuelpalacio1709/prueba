@@ -1,8 +1,8 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
-using static TreeEditor.TextureAtlas;
+using static UnityEditor.LightingExplorerTableColumn;
+
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class SpriteAnimator : MonoBehaviour
@@ -79,15 +79,28 @@ public class SpriteAnimator : MonoBehaviour
 
         do
         {
-            spriteRenderer.sprite = sprites[index];
-            index++;
-            if(index>= totalFramesPerAnimation)
-                index = 0;
+            if (sprites.Length > 0)
+            {
+                spriteRenderer.sprite = sprites[index];
+                index++;
+                if (index >= totalFramesPerAnimation)
+                    index = 0;
+            }
+           
             yield return new WaitForSeconds(AnimationDuration);
 
         }
         while (animate);
        
+    }
+
+    public void RenderOneFrame()
+    {
+        Sprite[] sprites = GetSpriteArray();
+        if (sprites.Length > 0)
+        {
+            spriteRenderer.sprite = sprites[1];
+        }
     }
 
     private Sprite[] GetSpriteArray()
@@ -106,5 +119,27 @@ public class SpriteAnimator : MonoBehaviour
                 return null;
         }
     }
+
+    public void SetSprites(Sprite[] upSprites, Sprite[] forwardSprites, 
+            Sprite[] rightSprites, Sprite[] leftSprites)
+    {
+
+        this.upSprites = upSprites;
+        this.forwardSprites = forwardSprites;
+        this.rightSprites = rightSprites;
+        this.leftSprites = leftSprites;
+
+        RenderOneFrame();
+    }
+
+    public void ClearSprites()
+    {
+        spriteRenderer.sprite = null;
+        this.upSprites = Array.Empty<Sprite>();
+        this.forwardSprites = Array.Empty<Sprite>();
+        this.rightSprites = Array.Empty<Sprite>();
+        this.leftSprites = Array.Empty<Sprite>();
+    }
+
 
 }

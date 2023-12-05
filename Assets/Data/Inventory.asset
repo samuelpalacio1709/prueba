@@ -32,3 +32,4 @@ MonoBehaviour:
   currentCheastITem: {fileID: 0}
   currentLegsITem: {fileID: 0}
   currentFeetITem: {fileID: 0}
+  currentHandsITem: {fileID: 0}
