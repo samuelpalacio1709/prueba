@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: CascoAzul
+  m_EditorClassIdentifier: 
+  itemType: 0
+  id: 
+  mainSprite: {fileID: 1831833524, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  upSprites:
+  - {fileID: -1943778128, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -227130769, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: 2129943680, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -772056601, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  forwardSprites:
+  - {fileID: 1931276223, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -1498581102, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: 1779616757, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: 1259261135, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  rightSprites:
+  - {fileID: 1832034454, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -210186962, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -141917453, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: 2025090989, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  leftSprites:
+  - {fileID: 1276902913, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: 181160606, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -120991846, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}
+  - {fileID: -768074280, guid: e723041eac455544d8a4d6daeef30bb1, type: 3}

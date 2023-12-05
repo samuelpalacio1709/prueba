@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: Pantalones_Verdes
+  m_EditorClassIdentifier: 
+  itemType: 2
+  id: 
+  mainSprite: {fileID: 1886183873, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  upSprites:
+  - {fileID: 1814469957, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 790587448, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 175631507, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 733180331, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  forwardSprites:
+  - {fileID: -1174183778, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 1304881527, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 2135333372, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 823654678, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  rightSprites:
+  - {fileID: 257512054, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: -198969418, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 269507485, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: -2041259918, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  leftSprites:
+  - {fileID: -77471335, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 1871720531, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: -359713574, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}
+  - {fileID: 1345404303, guid: a4b22195a52b75a46996f5dc25f09eea, type: 3}

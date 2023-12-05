@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: Zapatos_Alien
+  m_EditorClassIdentifier: 
+  itemType: 4
+  id: 
+  mainSprite: {fileID: 1566230564, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  upSprites:
+  - {fileID: -1042671832, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 1647444689, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: -62031881, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 1314713316, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  forwardSprites:
+  - {fileID: 45232543, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 973595967, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: -1244645846, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: -27749415, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  rightSprites:
+  - {fileID: -2127855884, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: -49630277, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 2025514725, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 1766652423, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  leftSprites:
+  - {fileID: 62801941, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 1142073944, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: -1295571765, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}
+  - {fileID: 1850651509, guid: 0476f2e02d4ca584a93ebfcbed4930d7, type: 3}

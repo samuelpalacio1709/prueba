@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: CascoNaranja
+  m_EditorClassIdentifier: 
+  itemType: 0
+  id: 
+  mainSprite: {fileID: -960448075, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  upSprites:
+  - {fileID: 460332670, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: -1787119510, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 111816370, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 100424543, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  forwardSprites:
+  - {fileID: -1847159804, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 1636564401, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 134823916, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 1567800037, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  rightSprites:
+  - {fileID: 1245333862, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 1286757259, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: -133491290, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 466672413, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  leftSprites:
+  - {fileID: -6916940, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: 2032531422, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: -747716907, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}
+  - {fileID: -1053270781, guid: 38ab44e9e2487f446b180f70fba4e2e5, type: 3}

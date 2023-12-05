@@ -7,8 +7,8 @@ using UnityEngine;
 public class ItemSO : ScriptableObject
 {
     public type itemType;
-    public string name;
-    public string path;
+    public string id;
+    public Sprite mainSprite;
     public Sprite[] upSprites;
     public Sprite[] forwardSprites;
     public Sprite[] rightSprites;
@@ -19,8 +19,8 @@ public class ItemSO : ScriptableObject
         Head,
         Cheast,
         Legs,
-        Hand,
-        Foot
+        Hands,
+        Feet
     }
     public void WearItem()
     {

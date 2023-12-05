@@ -41,7 +41,6 @@ public class InputHandler : MonoBehaviour
     }
     private void HandleInputInteractionPerformed(InputAction.CallbackContext context)
     {
-        Debug.Log("Interaction");
         OnInputInteraction?.Invoke();
     }
 

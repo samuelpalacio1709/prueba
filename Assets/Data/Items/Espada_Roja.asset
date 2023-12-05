@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: Espada_Roja
+  m_EditorClassIdentifier: 
+  itemType: 3
+  id: 
+  mainSprite: {fileID: -231912413, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  upSprites:
+  - {fileID: 888155591, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 2021674978, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 1964843595, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 1022023226, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  forwardSprites:
+  - {fileID: -653373763, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: -524046733, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 1054418544, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: -489950316, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  rightSprites:
+  - {fileID: 920785498, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 2048676851, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: -1346463950, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 753026008, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  leftSprites:
+  - {fileID: 1962769889, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 942503094, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 250717360, guid: bab9681583d25ab48a3417b4968929c0, type: 3}
+  - {fileID: 542183305, guid: bab9681583d25ab48a3417b4968929c0, type: 3}

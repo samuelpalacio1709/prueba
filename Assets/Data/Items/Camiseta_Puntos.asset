@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: Camiseta_Puntos
+  m_EditorClassIdentifier: 
+  itemType: 1
+  id: 
+  mainSprite: {fileID: -701514417, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  upSprites:
+  - {fileID: 972141763, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 1634905456, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: -1078044143, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: -1750620019, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  forwardSprites:
+  - {fileID: 1549195901, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: -1261853770, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 808804067, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 255138147, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  rightSprites:
+  - {fileID: 1387337646, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 875909336, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: -1659554972, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 1042082205, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  leftSprites:
+  - {fileID: -1932368178, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 752399159, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: 1555830192, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}
+  - {fileID: -816082310, guid: 0218c3fe43fa1c7418fbe3c8b294f739, type: 3}

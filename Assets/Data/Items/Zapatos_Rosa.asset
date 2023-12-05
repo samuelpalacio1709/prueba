@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: Zapatos_Rosa
+  m_EditorClassIdentifier: 
+  itemType: 4
+  id: 
+  mainSprite: {fileID: 842610830, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  upSprites:
+  - {fileID: -2108541267, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: -495673447, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 570732559, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 1480063510, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  forwardSprites:
+  - {fileID: 1855474745, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: -2021186981, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 750137983, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 591433136, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  rightSprites:
+  - {fileID: -1212215955, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 1466043173, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: -1876046612, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 856070282, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  leftSprites:
+  - {fileID: 2017086935, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: -1462415946, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: -2138708988, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}
+  - {fileID: 805963077, guid: 23f61676a03d87a4b84489890a33b3f1, type: 3}

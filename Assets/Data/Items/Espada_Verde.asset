@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d186a0c75150e346869faaa39ba3d99, type: 3}
+  m_Name: Espada_Verde
+  m_EditorClassIdentifier: 
+  itemType: 3
+  id: 
+  mainSprite: {fileID: -1109882003, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  upSprites:
+  - {fileID: -478304475, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: -720598122, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: 1841682174, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: -208122668, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  forwardSprites:
+  - {fileID: 2062410149, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: 1839739821, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: 1000458833, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: -172959184, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  rightSprites:
+  - {fileID: 687587427, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: 1684251589, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: -1463456254, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: -1072758732, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  leftSprites:
+  - {fileID: 1961712156, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: 763460383, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: 2049621154, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}
+  - {fileID: -41849976, guid: c009e4a8758674b4e9bc6dd984e55459, type: 3}

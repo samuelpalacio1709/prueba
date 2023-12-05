@@ -7,6 +7,7 @@ using UnityEngine;
 public class InventorySO : ScriptableObject
 {
     public List<ItemSO> items = new List<ItemSO>();
+    public List<ItemSO> allItems = new List<ItemSO>();
     public Action<ItemSO> OnNewItem;
     public ItemSO currentHeadITem;
     public ItemSO currentCheastITem;

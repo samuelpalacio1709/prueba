@@ -13,6 +13,21 @@ MonoBehaviour:
   m_Name: Inventory
   m_EditorClassIdentifier: 
   items: []
+  allItems:
+  - {fileID: 11400000, guid: 054e93fbf071f9e4d87d4029ac59d8b3, type: 2}
+  - {fileID: 11400000, guid: b14041060e33bad43bb906b6de95f95f, type: 2}
+  - {fileID: 11400000, guid: 8b3bda2e4c34e7a4fb9e017ef9c9efda, type: 2}
+  - {fileID: 11400000, guid: cd9d89ce187e8e044aaf117eb29699ed, type: 2}
+  - {fileID: 11400000, guid: 9452c0fa917e7a6498ef1e36cebdfa01, type: 2}
+  - {fileID: 11400000, guid: fab5f317bd6b51a459b36f0ff385aa8b, type: 2}
+  - {fileID: 11400000, guid: faee8fe51117d5d49a7dd74637a5a8e8, type: 2}
+  - {fileID: 11400000, guid: 9b040c9e169066a4c8ea0f1c558684eb, type: 2}
+  - {fileID: 11400000, guid: 3f92d4a7e0cdd8548b0cbc108c288a1d, type: 2}
+  - {fileID: 11400000, guid: cdad52790a455f3489c894ab2438a2ba, type: 2}
+  - {fileID: 11400000, guid: 97cd14d49c9fbe34f96cabb260ed4374, type: 2}
+  - {fileID: 11400000, guid: 1ea487b3fc30a7e4fb3cf6be3ba66cdc, type: 2}
+  - {fileID: 11400000, guid: c594f51cb610d344a820feb8ef17bfd6, type: 2}
+  - {fileID: 11400000, guid: a6bc2630cc172d44b80aa6755881229f, type: 2}
   currentHeadITem: {fileID: 0}
   currentCheastITem: {fileID: 0}
   currentLegsITem: {fileID: 0}
