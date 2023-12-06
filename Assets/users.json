@@ -1,1 +1,1 @@
-{"users":[{"username":"SAN","password":"123","inventory":{"wearables":[{"id":"Pantalones_Verdes","position":0,"isWeared":false},{"id":"Pantalones_Blancos","position":1,"isWeared":false},{"id":"Zapatos_Alien","position":2,"isWeared":false}]}}]}
+{"users":[{"username":"samuel","password":"123","inventory":{"wearables":[{"id":"CascoNaranja","position":-1,"isWeared":true}]}}]}

@@ -50,4 +50,8 @@ public class UIControllerHome : MonoBehaviour
     {
         return newUsernameInput.text;
     }
+    public void CloseApp()
+    {
+        Application.Quit();
+    }
 }
