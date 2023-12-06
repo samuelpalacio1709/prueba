@@ -16,6 +16,9 @@ public class WearablesController : MonoBehaviour
         {
             if(spawnPoint.GetChild(i) != null)
             {
+                if (inventory.items.Contains(inventory.allItems[i])){
+                    continue;
+                }
                 var wearable = Instantiate(spawnObjectWearable, spawnPoint.GetChild(i));
                 wearable.GetComponent<Wearable>().SetItem(inventory.allItems[i]);
             }

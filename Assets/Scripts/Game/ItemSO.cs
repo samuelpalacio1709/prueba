@@ -8,6 +8,8 @@ public class ItemSO : ScriptableObject
 {
     public type itemType;
     public string id;
+    public int position = -1;
+    public bool isWeared;
     public Sprite mainSprite;
     public Sprite[] upSprites;
     public Sprite[] forwardSprites;
@@ -26,5 +28,11 @@ public class ItemSO : ScriptableObject
     public void WearItem()
     {
         OnWeared?.Invoke();
+    }
+    public void Clear()
+    {
+        position = -1;
+        isWeared=false;
+        id = this.name;
     }
 }

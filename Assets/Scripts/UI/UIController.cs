@@ -9,7 +9,6 @@ public class UIController : Singleton<UIController>
     [SerializeField] TMP_Text toastMessage;
     [SerializeField] GameObject toastContainer;
     
-    private Coroutine toastCoroutine = null;
     private void Start()
     {
         Init();
@@ -23,7 +22,7 @@ public class UIController : Singleton<UIController>
 
     public void ChangeToastMessage(string message, bool state)
     {
-        toastContainer.gameObject.SetActive(state);
+        toastContainer.gameObject?.SetActive(state);
         toastMessage.text= message;
     }
 

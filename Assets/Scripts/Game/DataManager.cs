@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 
@@ -21,17 +22,22 @@ public class DataManager : Singleton<DataManager>
     {
         GetUsers();
     }
+
     private void GetUsers()
     {
-        TextAsset usersJson = Resources.Load<TextAsset>("users");
-        if (!usersJson) return;
-        Users users = JsonUtility.FromJson<Users>(usersJson.text);
-        Debug.Log(users);
-        if (users.users != null)
+        string filePath = Application.dataPath + "/users.json";
+
+        if (File.Exists(filePath))
         {
-            foreach (User user in users.users)
+            string json = File.ReadAllText(filePath);
+            Users users = JsonUtility.FromJson<Users>(json);
+
+            if (users?.users != null)
             {
-                allUsers.Add(user.username, user);
+                foreach (User user in users.users)
+                {
+                    allUsers.Add(user.username, user);
+                }
             }
         }
 
@@ -52,10 +58,12 @@ public class DataManager : Singleton<DataManager>
     {
 
         Users users = new Users();
-        users.users= allUsers.Values.ToArray();
+        users.users = allUsers.Values.ToArray();
         string json = JsonUtility.ToJson(users);
-        Debug.Log(json);
-        System.IO.File.WriteAllText("Assets/Resources/users.json", json);
+
+        string filePath = Application.dataPath + "/users.json";
+        File.WriteAllText(filePath, json);
+        Debug.Log(filePath);
     }
 
     public void SetUser(User user)
@@ -92,15 +100,15 @@ public class User
 [System.Serializable]
 public class PlayerWearable
 {
-    public PlayerWearable(string type, string path)
+    public PlayerWearable(string id, int position, bool isWeared)
     {
-        this.type = type;
-        this.path = path;
+        this.id = id;
+        this.position = position;
+        this.isWeared = isWeared;   
     }
-
-    public string type;
-    public string name;
-    public string path;
+    public string id;
+    public int position;
+    public bool isWeared;
 }
 
 [System.Serializable]

@@ -7,28 +7,23 @@ using UnityEngine;
 public class CharacterClothSlot : MonoBehaviour
 {
     [SerializeField] ItemSO.type type;
-    private SpriteAnimator spriteAnimator;
-    private ItemSO lastItem;
+    SpriteAnimator spriteAnimator => GetComponent<SpriteAnimator>();
     private ItemSO item;
     
 
-    private void Awake()
-    {
-        spriteAnimator = GetComponent<SpriteAnimator>();
-    }
-
+    
     private void OnEnable()
     {
         Draggable.onItemWeared += WearItem;
         Draggable.onItemUnWeared += UnWearItem;
-        InventoryUIController.OnInventoryClose += ChangeClothes;
+        InventoryController.OnInventoryClose += ChangeClothes;
 
     }
     private void OnDisable()
     {
         Draggable.onItemWeared -= WearItem;
         Draggable.onItemUnWeared -= UnWearItem;
-        InventoryUIController.OnInventoryClose -= ChangeClothes;
+        InventoryController.OnInventoryClose -= ChangeClothes;
     }
 
     public void ChangeClothes(InventorySO inventory)

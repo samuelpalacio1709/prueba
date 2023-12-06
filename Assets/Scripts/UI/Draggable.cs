@@ -24,9 +24,10 @@ public class Draggable : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDra
         if (item != null)
         {
             onItemWeared?.Invoke(item);
-
         }
     }
+
+
     public void OnDrop()
     {
         if (item != null)

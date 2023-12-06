@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0698d88b606f0a49bbacf542cc41c68, type: 3}
   m_Name: Inventory
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - {fileID: 11400000, guid: a6bc2630cc172d44b80aa6755881229f, type: 2}
   allItems:
   - {fileID: 11400000, guid: 054e93fbf071f9e4d87d4029ac59d8b3, type: 2}
   - {fileID: 11400000, guid: b14041060e33bad43bb906b6de95f95f, type: 2}
@@ -28,8 +29,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1ea487b3fc30a7e4fb3cf6be3ba66cdc, type: 2}
   - {fileID: 11400000, guid: c594f51cb610d344a820feb8ef17bfd6, type: 2}
   - {fileID: 11400000, guid: a6bc2630cc172d44b80aa6755881229f, type: 2}
-  currentHeadITem: {fileID: 0}
-  currentCheastITem: {fileID: 0}
-  currentLegsITem: {fileID: 0}
-  currentFeetITem: {fileID: 0}
-  currentHandsITem: {fileID: 0}
+  currentHeadItem: {fileID: 0}
+  currentCheastItem: {fileID: 0}
+  currentLegsItem: {fileID: 0}
+  currentFeetItem: {fileID: 0}
+  currentHandsItem: {fileID: 0}
